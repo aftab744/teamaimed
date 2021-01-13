@@ -1,0 +1,111 @@
+
+.card{
+    margin-top:20px;
+	margin-bottom:10px;
+	padding-bottom: 25px;
+	padding-top:25px;
+	padding-left: 15px;
+	margin-right: 30px;
+	margin-left: 10px;
+    background: #fff;
+	height:50%;
+	text-align: center;
+	overflow:hidden;
+	position: relative;
+	transition: all .3s ease-in-out;
+	box-shadow:  0 5px 20px rgba(0,0,0,0.5);
+	border: 2px solid black;
+}
+.card:hover{
+	transform: scale(1.05);
+	margin: 10px;
+	box-shadow: 0 5px 30px rgba(0,0,0,8);
+	border: 2.5px solid black;
+	
+}
+.card:before{
+	content:'';
+	width:100%;
+	height:350px;
+	background: darkorchid;
+	position: absolute;
+	top:-150px;
+	left: 0;
+	transform: skewY(-20deg);;
+}
+ .title{
+	padding: 20px 20px 60px;
+	position: relative;
+	text-align: center;
+	position:relative;
+}
+.title{
+	font-size: 30px;
+	font-weight: 600;
+	color: white;
+	text-transform: uppercase;
+	margin:0;
+}
+.price{
+	display: inline-block;
+	width: 170px;
+	margin:5px;
+	margin-right: 10px;
+	height: 110px;
+	padding: 15px;
+	border:15px solid #da4357;
+	border-radius:50%;
+	position: relative;
+}
+.service{
+	padding: 70px 0 0;
+	margin-bottom: 20px;
+	list-style: none;
+	text-align: center;
+	transition: all 0.3s ease 0s;
+	position:relative;
+
+}
+.service{
+	padding: 7px 0;
+	font-size: 16px;
+	font-weight: 500;
+	position: relative;
+
+}
+
+.service2{
+	color:#da4357;
+	font-weight: 600;
+
+}
+.service2:hover{
+	color:black;
+	font-weight:500;
+}
+.service1{
+	color:black;
+	font-weight: 500;
+}
+.service1:hover{
+color:#da4357;
+font-weight:500;
+}
+.button{
+	font-weight: 700;
+	background-color:#da4357 ;
+	size: 200px;
+	cursor: pointer;
+	border:2px solid black;
+	border-radius: 10px;
+	transition: transform 0.3s ease;
+	position:relative;
+}
+.button:hover{
+	transform: translateY(-6px);
+	color:white;
+	font-weight: 800;
+}
+
+
+
